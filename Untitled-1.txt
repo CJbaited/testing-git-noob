@@ -1,0 +1,75 @@
+console.log("%cHello, World", "color: green; font-size: 40px");
+//this is a comment
+/*comment? */
+
+"john"
+var x = "john";
+var person;
+person = "cedric";
+console.log("hello " + x);
+console.log("hello " + person);
+person = x;
+console.log("hello " + person);
+var x = 123;
+console.log(x + 5 + " hello " + x);
+var currentTime = 10;
+console.log(currentTime > 9 && currentTime < 17);
+
+for (i = 1; i < 6; i++){
+    console.log(i);
+}
+console.log("counting completed");
+
+
+for ( n = 5; n >= 1; n = n - 1){
+    console.log(n);
+}
+console.log('Countdown finished!');
+
+var counter = 2018;
+
+while (counter < 2023){
+    console.log(counter);
+    counter++;
+}
+console.log('Countdown finished!');
+
+for (i=1;i<=10;i++){
+switch(i){
+    case 1:
+        console.log("Gold Medal");
+        break;
+    case 2:
+        console.log("Silver Medal");
+        break;
+    case 3:
+        console.log("Bronze Medal");
+        break;
+    default:
+        console.log(i);
+        break;
+}
+}
+
+var clothes = [];
+clothes.push("cap");
+clothes.push("sweater");
+clothes.push("jeans");
+clothes.push("sneakers");
+clothes.push("fanny pack");
+clothes.pop();
+clothes.push("socks")
+console.log(clothes[2]);
+for (i = 0; i < clothes.length; i++){
+    console.log(clothes[i] + " -for loop!");
+}
+
+var favCar = {};
+favCar.color = "blue";
+favCar.covertible = true;
+console.log(favCar);
+
+var str = "Hello";
+str.match("jello");
+
+
